@@ -1,1 +1,1 @@
-# component-watcher
+# component-checker
