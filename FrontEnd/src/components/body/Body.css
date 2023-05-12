@@ -1,0 +1,26 @@
+.body {
+    /* background-image: url('../../../public/images/GTN_Logo.jpg'); */
+    background-color: #F6F6F6;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 3%; */
+    position: static;
+    left: 13%;
+    height: 100%;
+    width: 87%;
+    overflow: visible;
+    top: 7%;
+    /* z-index: 1; */
+  }
+
+.selectors{
+  display: flex;
+  /* margin-left: 50vw; */
+  flex-direction: row;
+  margin-left: auto; 
+  margin-right: 2%;
+}

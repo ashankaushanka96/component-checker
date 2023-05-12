@@ -1,0 +1,40 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.top{
+  height: 7%;
+  width: 100%;
+}
+.down {
+  /* background-image: url('../public/images/GTN_Logo.jpg'); */
+  /* width: 100vw; */
+  height: 93%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  position: static;
+  top: 0;
+}
+
+.inside-body {
+  background-image: url('../public/images/GTN_Logo.jpg');
+  background-color: #F6F6F6;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  position: static;
+  height: 100%;
+  width: 87%;
+}
+
+
+

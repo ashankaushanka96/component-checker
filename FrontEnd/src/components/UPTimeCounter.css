@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8%;
+    
+}
+
+.numbers{
+    width: 10%;
+    text-align: right;
+}
+
+.symbols{
+    width: 7%;
+    text-align: left;
+}
+
+.colon{
+    width: 3%;
+}

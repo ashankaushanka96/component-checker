@@ -1,0 +1,90 @@
+
+
+.table {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    /* border: 5px solid yellow; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    font-size: 0.9vw;
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    
+}
+
+.table tbody{
+    height: 100%;
+}
+
+.header-row{
+    width: 98.5%;
+    height: 2%;
+    margin-left: .5%;
+    margin-right: .5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border-bottom:2px solid black;
+    /* position: fixed; */
+    /* position: sticky; */
+    z-index: 1;
+}
+
+.other-rows{
+    width: 100%;
+    height:98%;
+    flex-grow: 1;
+    display: flex;
+    /* border: 5px solid yellow; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-size: 0.9vw;
+    /* overflow: auto; */
+    overflow: auto;
+}
+
+.other-rows-inside {
+    width: 100%;
+}
+
+.component-name-hr{
+    width: 20.2%;
+    padding-left: 2%;
+}
+
+.ip-hr{
+    width:10%
+}
+
+.port-hr{
+    width:5%
+}
+
+.process-status-hr{
+    width:10%
+}
+
+.port-status-hr{
+    width:10%
+}
+
+.start-time-hr{
+    width:10%
+}
+
+.end-time-hr{
+    width:10%
+}
+
+.running-dates-hr{
+    width:10%
+}
+
+.uptime-hr{
+    width:15%
+}
