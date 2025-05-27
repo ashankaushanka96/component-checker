@@ -7,7 +7,7 @@ An all-in-one solution to monitor and validate the state of your software compon
 - **Real-time Health Checks**: Automatically ping your components and report uptime status.  
 - **Detailed Logging**: Capture and display component logs for easier debugging.  
 - **User-friendly Dashboard**: Intuitive React UI for quick overview and deep dive into component states.  
-- **RESTful API**: Built with FastAPI (or Flask) for easy integration and extensibility.  
+- **RESTful API**: Built with FastAPI for easy integration and extensibility.  
 - **Configurable Alerts**: Customize thresholds and get notified when components deviate from expected behavior.
 
 ## 🏛️ Architecture
