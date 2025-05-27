@@ -4,10 +4,10 @@ An all-in-one solution to monitor and validate the state of your software compon
 
 ## 🚀 Features
 
-- **Real-time Health Checks**: Automatically ping your components and report uptime status.  
-- **Detailed Logging**: Capture and display component logs for easier debugging.  
-- **User-friendly Dashboard**: Intuitive React UI for quick overview and deep dive into component states.  
-- **RESTful API**: Built with FastAPI for easy integration and extensibility.  
+- **Real-time Health Checks**: Automatically ping your components and report uptime status.
+- **Detailed Logging**: Capture and display component logs for easier debugging.
+- **User-friendly Dashboard**: Intuitive React UI for quick overview and deep dive into component states.
+- **RESTful API**: Built with FastAPI for easy integration and extensibility.
 - **Configurable Alerts**: Customize thresholds and get notified when components deviate from expected behavior.
 
 ## 🏛️ Architecture
@@ -20,25 +20,27 @@ An all-in-one solution to monitor and validate the state of your software compon
                                                       └───────────────┘
 ```
 
-- **BackEnd/**: Python server providing health-check endpoints.  
-- **FrontEnd/**: React application consuming the API and rendering the dashboard.  
+- **BackEnd/**: Python server providing health-check endpoints.
+- **FrontEnd/**: React application consuming the API and rendering the dashboard.
 - **Component State Checker.pdf**: Detailed project requirements and design document.
 
 ## ⚙️ Prerequisites
 
-- **Backend**: Python 3.8 or higher  
-- **Frontend**: Node.js 14 or higher  
-- **Optional**: Docker & Docker Compose for containerized deployment  
+- **Backend**: Python 3.8 or higher
+- **Frontend**: Node.js 14 or higher
+- **Optional**: Docker & Docker Compose for containerized deployment
 
 ## 🛠️ Installation
 
-1. **Clone the repository**  
+1. **Clone the repository**
+
    ```bash
    git clone https://github.com/ashankaushanka96/component-checker.git
    cd component-checker
    ```
 
-2. **Backend setup**  
+2. **Backend setup**
+
    ```bash
    cd BackEnd
    python -m venv venv
@@ -48,7 +50,8 @@ An all-in-one solution to monitor and validate the state of your software compon
    uvicorn main:app --reload --host 0.0.0.0 --port 8000
    ```
 
-3. **Frontend setup**  
+3. **Frontend setup**
+
    ```bash
    cd ../FrontEnd
    npm install
@@ -60,26 +63,27 @@ An all-in-one solution to monitor and validate the state of your software compon
 
 ## 🔍 Usage
 
-- **View Component List**: Navigate to the **Components** page.  
-- **Trigger Health Check**: Click on the **Check Now** button next to any component.  
-- **Inspect Logs**: Use the **Logs** tab to see real-time output.  
+- **View Component List**: Navigate to the **Components** page.
+- **Trigger Health Check**: Click on the **Check Now** button next to any component.
+- **Inspect Logs**: Use the **Logs** tab to see real-time output.
 - **Configure Alerts**: Edit `config.yaml` (or `.env`) to set custom thresholds.
 
 ## 📖 API Endpoints
 
-| Method | Endpoint                   | Description                       |
-| ------ | -------------------------- | --------------------------------- |
-| GET    | `/api/components`          | List all monitored components.    |
-| POST   | `/api/components/check`    | Trigger a health check.           |
-| GET    | `/api/components/{id}`     | Get detailed status of a component. |
-| GET    | `/api/components/{id}/logs`| Fetch logs for a component.       |
+| Method | Endpoint                    | Description                         |
+| ------ | --------------------------- | ----------------------------------- |
+| GET    | `/api/components`           | List all monitored components.      |
+| POST   | `/api/components/check`     | Trigger a health check.             |
+| GET    | `/api/components/{id}`      | Get detailed status of a component. |
+| GET    | `/api/components/{id}/logs` | Fetch logs for a component.         |
 
+## 🖼️ Screenshots
+
+![Dashboard Overview](./images/component-checker.png)
 
 ## 📬 Contact
 
-- **Maintainer**: Ashan Kaushanka  
+- **Maintainer**: Ashan Kaushanka
 - **Email**: ashankaushanka96@example.com
 
 ---
-
-*This README was auto-generated to provide a clear overview of the Component Checker project.*
