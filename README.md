@@ -74,19 +74,6 @@ An all-in-one solution to monitor and validate the state of your software compon
 | GET    | `/api/components/{id}`     | Get detailed status of a component. |
 | GET    | `/api/components/{id}/logs`| Fetch logs for a component.       |
 
-## 🖼️ Screenshots
-
-<!-- Replace with actual images -->
-![Dashboard Overview](https://via.placeholder.com/800x400?text=Dashboard+Overview)
-![Component Logs](https://via.placeholder.com/800x400?text=Component+Logs)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open issues for suggestions and bugs, and submit pull requests for enhancements.
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
 
