@@ -1,6 +1,6 @@
 # Component Checker
 
-An all-in-one solution to monitor and validate the state of your software components across distributed environments. This project provides a robust Python-based API backend and a modern React frontend to give you real-time insights into component health and logs.
+An all-in-one solution to monitor and validate the state of your software components across distributed environments. This project provides a robust Python-based API backend and a modern React frontend to give you real-time insights into component health.
 
 ## 🚀 Features
 
